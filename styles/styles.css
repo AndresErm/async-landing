@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Header-Principal{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    /* background-color: rgba(131, 32, 32, 0.281); */
+ 
+}
+
+.Content-IMG-Log{
+    width: max-content;
+    height: max-content;
+}
+
+.Img-Log{
+    border-radius: 50%;
+    margin-left: 100%;
+    width: 70px;
+    height: 70px;
+    
+}
+
+.Content-Links-Navigation{
+    width: 500px;
+    height: 50px;
+}
+
+.Links-Principal{
+    background-color: rgba(118, 202, 235, 0.61);
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 30px;
+}
+
+.Links-Principal:hover{
+    background-color: rgb(240, 109, 109);
+}
+
+#Section-About-Me{
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    /* background-color: rgba(107, 123, 173, 0.445) currentColor; */
+    
+}
+
+.Content-AboutForMe{
+    margin-left: 150px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.Section-Name{
+    width:max-content;
+    height:max-content;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 200px ;
+    margin-left: 100px;
+}
+
+.Section-Apodo{
+    color: rgb(25, 95, 226);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 100px;
+    margin-left: -245px;
+    
+}
+
+.Section-About-Me{
+    color: rgb(105, 102, 102);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -215px;
+
+}
+
+.Content-IMG-Perfil{
+    position: absolute;
+    margin-left: 35%;
+    background-color: rgb(78, 66, 66);
+}
+
+.IMG-Perfil{
+    object-fit: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#Section-Content-API{
+    /* background-color: rgba(134, 221, 224, 0.363);    */
+    margin-top: 17%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+.Group-API{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+}
+
+.Img-Content-API{
+    width: 150px;
+    height: 150px;
+    width: 400px;
+    height: 400px;
+    /* background-color: aqua; */
+}
+
+.Title-Content-API{
+    /* width: 150px; */
+    /* height: 150px; */
+    /* background-color: rgb(65, 60, 60); */
+    color: black;
+}
+
+.Img{
+    width: 180px;
+    height: 140px;
+}
